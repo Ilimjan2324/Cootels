@@ -1,0 +1,356 @@
+@import "./Fonts.css";
+/*BASE CONF*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/*BASE CONF*/
+/*UNIQUE CONFIG*/
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.header_logo {
+    font-family: "Montserrat", sans-serif;
+}
+.section_btn {
+    background: #0E1734;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.section_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.section_desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+.row {
+    width: 100%;
+    height: 100%;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-6 {
+    width: 50%;
+}
+/*UNIQUE CONFIG*/
+/*HEADER CONFIG*/
+.header {
+    height: 120px;
+    background: #FFFFFF;
+}
+.header_logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #192252;
+}
+.header_link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+}
+.header_link:nth-child(2) {
+    margin: 0 32px;
+}
+.header_btn {
+    padding: 14px 16px;
+}
+/*HEADER CONFIG*/
+/*HERO CONFIG*/
+.hero {
+    height: 100vh;
+    padding: 80px 0;
+}
+.hero_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+.hero_desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    margin: 24px 0 32px;
+    width: 485px;
+}
+.hero_right-side {
+    margin-left: 12px;
+}
+.hero .col-4:nth-child(2) {
+    margin: 81px 24px 0;
+}
+.hero_img {
+    border-radius: 4px;
+}
+/*HERO CONFIG*/
+/*ABOUT US CONFIG*/
+.about_us {
+    height: 736px;
+    padding: 80px 0;
+}
+.about_us_img {
+    border-radius: 4px;
+}
+.about_us_inf {
+    margin-left: 126px;
+}
+.about_us_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+.about_us_desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    width: 584px;
+}
+.about_us_desc:nth-child(2) {
+    margin: 24px 0 16px;
+}
+.about_us_desc:nth-child(3) {
+    margin-bottom: 36px;
+}
+/*ABOUT US CONFIG*/
+/*SECTION BENEFIT*/
+.benefit {
+    height: 960px;
+    padding: 80px 0;
+}
+.benefit_up-side, .benefit_down-side {
+    margin-right: 106px;
+}
+.benefit_up-side {
+    margin-bottom: 32px;
+}
+.benefit_inf .section_desc {
+    width: 584px;
+}
+/*SECTION BENEFIT*/
+/*RESERVATION CONF*/
+.reservation {
+    height: 1176px;
+    padding: 80px 0;
+}
+.reservation_inf {
+    margin-bottom: 88px;
+}
+.reservation_inf .section_desc {
+    width: 588px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.reservation .col-4:nth-child(2) {
+    margin: 0 24px;
+}
+#reservation .col-4 .section_title {
+    font-size: 24px;
+    margin: 32px 0 16px;
+    color: #000000;
+}
+#reservation .col-4 .section_desc {
+    margin-bottom: 32px;
+}
+.cards_more {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+}
+#reservation .col-4 .d-flex {
+    width: 129px;
+}
+/*RESERVATION CONF*/
+/*SECTION ROOM*/
+.room {
+    height: 596px;
+    padding: 80px 0;
+}
+.room_content {
+    width: 407px;
+    margin-top: 6px;
+}
+.room_suptitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #424F7B;
+}
+.room_content .section_desc {
+    margin-bottom: 32px;
+    width: 384px;
+}
+.room_content .section_btn:nth-child(5) {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0E1734;
+    padding: 14px 0;
+    margin-left: 24px;
+}
+#room .col-6:last-child {
+    padding-left: 12px;
+}
+.room_step {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: -1px 0 8px -4px #989898;
+    padding: 0 36px;
+    transition: .3s;
+}
+.room_step:hover {
+    box-shadow: -1px 0 8px 0 #989898;
+}
+.room_step_middle {
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.room_step:not(:last-child) {
+    margin-bottom: 24px;
+}
+.room_step .d-flex {
+    height: 100%;
+}
+.room_sm-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #424F7B;
+}
+.room_step_middle .d-flex {
+    height: auto;
+}
+.room_step .room_desc {
+    margin: 22px 0 0;
+}
+/*SECTION ROOM*/
+/*SECTION TESTIMONI*/
+.testimoni {
+    height: 627px;
+    padding: 80px 0;
+}
+.testimoni_mail .d-flex {
+    width: 72px;
+}
+#testimoni .section_desc {
+    text-align: center;
+}
+.testimoni_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #192252;
+    margin: 40px 0 24px;
+}
+.testimoni_mail img {
+    margin: 38px 0 44px;
+}
+.testimoni_mail .section_desc {
+    width: 793.06px;
+}
+/*SECTION TESTIMONI*/
+/*SECTION FOOTER*/
+.footer {
+    background-color: #0B265A;
+    padding: 120px 0;
+    color: #D9DBDE;
+    height: 444px;
+}
+.footer_logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.footer_desc {
+    width: 186px;
+    margin: 13px 0 36px;
+}
+.fa-brands {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-right: 24px;
+}
+.footer_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9DBDE;
+    margin-bottom: 24px;
+ }
+.footer_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.footer_nav {
+    width: 200px;
+}
+/*SECTION FOOTER*/
